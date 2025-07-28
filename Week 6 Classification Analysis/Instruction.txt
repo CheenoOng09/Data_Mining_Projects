@@ -1,0 +1,6 @@
+Please use the dataset provided for practice.
+1) DecisionTreeClassifer
+2) Plot_tree (no more than 4 layers)
+3) Tweak with max_depth, and min_samples_split
+
+Please submit a snapshot of your code and plot.
