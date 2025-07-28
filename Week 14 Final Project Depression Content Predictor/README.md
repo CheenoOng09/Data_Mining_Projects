@@ -94,5 +94,3 @@ See `README.txt` or `Data Mining Project Report_Group6.pdf` for team member role
 For academic use only.
 
 ---
-
-Let me know if you'd like this tailored further for portfolio purposes or public release.
