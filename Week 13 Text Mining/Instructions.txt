@@ -1,0 +1,12 @@
+1. Dataset:
+
+use the SMSSpamCollection on UCI Machine Learning Repository, you may use the link below:
+https://archive.ics.uci.edu/dataset/228/sms+spam+collection
+
+2. Preprocess 5 sample texts using the full pipeline.
+Tokenization
+Stopword Removal
+Stemming/Lemmatization
+Vectorization (TF-IDF)
+
+3. This is not a mandatory assignment. But the groups that do turn in their work by teaming up (preferably with a job breakdown description) will be given extra credit, which will be counted into their in-class performance.
