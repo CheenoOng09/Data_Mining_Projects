@@ -1,0 +1,33 @@
+Dataset for implementing hierarchical modeling.
+
+Instructions.
+
+Step 1: Aggregate data to school-level summaries
+Step 2: Standardize the features
+Step 3: Perform hierarchical clustering
+Step 4: Plot the dendrogram
+
+code for reference, but please key them in, not copy-n-paste.
+Enjoy.
+
+Sample code:
+from scipy.cluster.hierarchy import linkage, dendrogram
+from sklearn.preprocessing import StandardScaler
+
+# Step 1: Aggregate data to school-level summaries
+school_summary = df.groupby('school_id').agg({
+'test_score': 'mean',
+'study_hours': 'mean',
+'school_funding': 'first',
+'urban': 'first'
+}).reset_index()
+
+# Step 2: Standardize the features
+features = ['test_score', 'study_hours', 'school_funding', 'urban']
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(school_summary[features])
+
+# Step 3: Perform hierarchical clustering
+Z = linkage(X_scaled, method='ward')
+
+# Step 4: Plot the dendrogram
