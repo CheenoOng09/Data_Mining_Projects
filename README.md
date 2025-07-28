@@ -1,8 +1,38 @@
-# Data_Mining_Projects
+# Data Mining Projects – Portfolio Showcase
 
-This repository contains all major lab exercises, assignments, and projects completed for the **Data Mining** course. Each folder represents a specific week’s topic, ranging from decision trees to text mining, association rule mining, and a final sentiment analysis project.
+This repository features my hands-on work for a university-level **Data Mining** course. It includes end-to-end projects on classification, clustering, association rule mining, web scraping, and NLP. All work was completed using Python and Jupyter Notebooks.
 
 ---
+
+## 💡 Highlights
+
+- 🧠 **ML Techniques:** Decision Trees, Random Forest, Logistic Regression, SVM, Hierarchical Clustering, Apriori, FP-Growth  
+- 🗃 **Data Sources:** Titanic dataset, Reddit depression posts, student performance data, scraped web content  
+- ✍️ **Text Mining & NLP:** TF-IDF, stopword removal, word clouds, topic classification  
+- 🌐 **Web Scraping:** Extracted data using `requests` and `BeautifulSoup`  
+- 📊 **Tools & Libraries:** `pandas`, `scikit-learn`, `nltk`, `matplotlib`, `apyori`, `mlxtend`, `BeautifulSoup`
+
+---
+
+## Featured Project: Depression Content Detection
+
+- Built a model to detect if a Reddit post is **about depression**
+- Used TF-IDF vectorization and classifiers (LogReg, SVM)
+- Delivered as a notebook, PDF report, and presentation
+
+---
+
+
+## Skills Demonstrated
+
+- Data preprocessing & cleaning  
+- Supervised & unsupervised machine learning  
+- Text classification  
+- Association rule mining  
+- Visualization & reporting
+
+---
+
 
 ## Course Topics Covered
 
